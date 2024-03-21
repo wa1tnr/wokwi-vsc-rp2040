@@ -1,1 +1,12 @@
 Wed 20 Mar 23:17:08 UTC 2024
+
+
+  https://docs.wokwi.com/parts/wokwi-pi-pico
+
+  wokwi-pi-pico for the diagram.json is correct
+  for this pico-sdk project.
+
+ $ ag wokwi diagram.json | cat | ag pico
+7:      "type": "wokwi-pi-pico",
+
+END.
