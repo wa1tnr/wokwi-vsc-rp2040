@@ -312,7 +312,7 @@ int main() {
     printf("%s", print_stringxx);
     strcpy(print_stringxx, "  .s dump cold .. depth char decimal hex added\n");
     printf("%s", print_stringxx);
-    strcpy(print_stringxx, "  That's it for Thursday 21 March 01:44:20 UTC 2024\n");
+    strcpy(print_stringxx, "  Opening work day for Thursday 21 March 13:08:52 UTC 2024\n");
     printf("%s", print_stringxx);
 
     putchar('\n');

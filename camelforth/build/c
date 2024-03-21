@@ -1,0 +1,10 @@
+#!/bin/sh
+./cleaner.sh
+./do_march_20-aa.sh
+cd ./sbx-cc
+cleari 17 ; date ; cleari 2
+make
+cleari 2 ; date ; cleari 2
+exit 0
+
+# END.
