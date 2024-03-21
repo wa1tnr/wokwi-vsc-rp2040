@@ -1,3 +1,9 @@
+Thu 21 Mar 13:38:45 UTC 2024
+
+  NEW:
+  Nearly or entirely ported.  Working wokwi vscode extension,
+  rp2040 pico-sdk version of Camelforth in C from 14 Feb 2016.
+
 Tue 29 Mar 17:58:24 UTC 2022  ONLINE edit
 
   NEW:
