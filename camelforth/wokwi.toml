@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+gdbServerPort = 3333
+elf = "build/sbx-cc/sbx-cc.uf2"
+firmware = "build/sbx-cc/sbx-cc.uf2"
