@@ -1,0 +1,7 @@
+if ( CMAKE_COMPILER_IS_GNUCC )
+    set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall -Wextra")
+endif()
+include_directories(../../include)
+add_library(ws2812 ws2812.c pico-RGB.c)
+pico_generate_pio_header(ws2812 ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
+target_link_libraries(ws2812 PRIVATE pico_stdlib hardware_pio)
